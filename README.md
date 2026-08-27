@@ -1,7 +1,6 @@
 
 # customizable-low-cost-aom-driver
 Designed by Parker Osborne, University of San Diego
-<img width="1330" height="655" alt="lcg_pcb_banner" src="https://github.com/user-attachments/assets/4b37652b-1b45-4362-a6db-8ef4668f80c4" />
 A custom low-cost four-channel RF signal generator that costs about $250 per board. Built around an Analog Devices AD9959 direct digital synthesizer, clocked and controlled by a raspberry Pi Pico 2W (RP2350). Features per channel: 9th order Nyquist image suppression filter, resistive pads for match and flatness, monolithic amplifier stage, +10 dBm delivered at SMA output. Tuned for 50-150 MHz output band.
 
 The low-cost gen is built on a 4-layer RF PCB, fabricated by OSHPark. Note: When the PCB was order for the current version, a supply shortage led to a non-standard insulating core being used in this design, compared to the usual service. A stencil used for soldering the AD9959 and surround decoupling capacitors was ordered from OSH Stencils. Everything was assembled by hand using a soldering iron, hotplate, and digital microscope.
@@ -22,3 +21,7 @@ Changes for Version 2:
 
 
   Please reach out to me if you have any questions.
+
+
+<img width="1330" height="655" alt="lcg_pcb_banner" src="https://github.com/user-attachments/assets/4b37652b-1b45-4362-a6db-8ef4668f80c4" />
+
