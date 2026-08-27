@@ -3,10 +3,12 @@ Designed by Parker Osborne, University of San Diego
 
 A custom low-cost four-channel RF signal generator that costs about $250 per board. Built around an Analog Devices AD9959 direct digital synthesizer, clocked and controlled by a raspberry Pi Pico 2W (RP2350). Features per channel: 9th order Nyquist image suppression filter, resistive pads for match and flatness, monolithic amplifier stage, +10 dBm delivered at SMA output. Tuned for 50-150 MHz output band.
 
+The low-cost gen is built on a 4-layer RF PCB, fabricated by OSHPark. Note: When the PCB was order for the current version, a supply shortage led to a non-standard insulating core being used in this design, compared to the usual service. A stencil used for soldering the AD9959 and surround decoupling capacitors was ordered from OSH Stencils. Everything was assembled by hand using a soldering iron, hotplate, and digital microscope.
+
 Current Version and Notes:
 The low-cost generator is currently in its first working version. A second version is currently planned, with noted changes below. This design is open source and intended to be used for atomic, molecular, and optics physics, but can be implemented in a wide variety of fields. We are currently using it for doppler cooling Rb-87 atoms to create Bose-Einstein condensates. 
 
-Current software control is limited to basic testing functions, can be written and triggered using spare Pico GPIO pins but are not provided here.
+Current software control is limited to basic testing functions, routines can be written and triggered using spare Pico GPIO pins but are not provided here.
 
 A full proceedings paper write up is currently planned and will be added here when completed. Currently in the final testing phase of the first design.
 
